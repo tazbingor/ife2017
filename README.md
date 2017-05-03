@@ -6,10 +6,10 @@
 
 2. 任务二,任务一增强版,加入CSS样式
 
-   > 预览:https://tazbingor.github.io/ife2017/task_02/index.htm
+   > 预览:https://tazbingor.github.io/ife2017/task_02/index.html
 
 3. 任务三,三栏式布局
 
-   > 预览:https://tazbingor.github.io/ife2017/task_03/index.htm
+   > 预览:https://tazbingor.github.io/ife2017/task_03/index.html
 
 4. 任务四,定位
