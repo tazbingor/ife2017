@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+/*page头部*/
+header {
+    background-color: #696969;
+    height: 70px;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    font-family: Condiment;
+    color: #FF8C00;
+}
+
+header nav {
+    float: right;
+    display: inline-block;
+    padding: 40px 5px 5px;
+}
+
+header ul {
+    display: inline-block;
+    list-style-type: none;
+    /*height: 20px;*/
+    width: auto;
+    float: left;
+}
+
+header ul li {
+    margin: 0px 20px 5px 0px;
+    float: left;
+}
+
+header ul li a {
+    color: #fff;
+}
+
+/*blog文章区域*/
+h2 {
+    padding: 5px 0;
+}
+
+h3 {
+    padding: 10px 0;
+    color: #808080;
+}
+
+article {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 1px 1px 2px 1px #848484
+}
+
+article p {
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+}
+
+.article-ulList {
+    list-style-type: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
+.picBox {
+    margin: 10px 50px;
+    width: 300px;
+    border: #9e9e9e 0.5px solid;
+    font-size: 16px;
+    font-family: "Microsoft Yahei";
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.picBox img {
+    width: 280px;
+    padding: 5px;
+}
+
+/*表格*/
+table {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    text-indent: 1em;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+table tr:nth-child(1) {
+    background: #333333;
+    color: #fff;
+}
+
+table tr:nth-child(6) {
+    background: #DEDEDE;
+}
+
+table td {
+    padding: 5px;
+}
+
+table .footer-tr {
+    background: #ccc;
+}
+
+/*register*/
+.register h2 {
+    border-left: 3px solid #DEDEDE;
+    padding-left: 10px;
+}
+
+.register p {
+    width: 100%;
+    padding-left: 200px;
+}
+
+.register p span {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.register p input {
+    margin: 10px 0;
+}
+
+.register p:nth-child(3),
+.register p:nth-child(6) {
+    padding-left: 410px;
+    font-size: 12px;
+    color: #DEDEDE;
+}
+
+.register > input {
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    background: #3355D0;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/*footer*/
+footer {
+    background-color: #696969;
+    color: aliceblue;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;;
+}
