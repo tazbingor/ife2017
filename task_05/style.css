@@ -4,172 +4,264 @@
 }
 
 body {
-    background-color: darkgrey;
-}
-
-/*page头部*/
-header {
-    background-color: #696969;
-    height: 70px;
-}
-
-header h1 {
-    display: inline-block;
-    margin: 5px;
-    padding: 5px;
-    font-family: "Sitka Subheading";
-    font-size: 35px;
-    text-align: center;
-    color: #FF8C00;
-    text-shadow: black 0 5px 5px;
-
-}
-
-header nav {
-    float: right;
-    display: inline-block;
-    padding: 40px 5px 5px;
-}
-
-header ul {
-    display: inline-block;
-    list-style-type: none;
-    /*height: 20px;*/
-    width: auto;
-    float: left;
-}
-
-header ul li {
-    margin: 0px 20px 5px 0px;
-    float: left;
-}
-
-header ul li a {
-    color: #fff;
-}
-
-/*blog文章区域*/
-h2 {
-    padding: 5px 0;
-}
-
-h3 {
-    padding: 10px 0;
-    color: #808080;
-}
-
-article {
-    display: block;
-    padding: 20px;
-    margin: 20px;
-    background: #fff;
-    box-shadow: 5px 5px 2px 1px #868686;
-
-}
-
-article p {
-    font-size: 16px;
-    font-family: "Microsoft Yahei";
-}
-
-.article-ulList {
-    list-style-type: none;
-    font-size: 16px;
-    letter-spacing: 2px;
-    line-height: 22px;
-}
-
-.picBox {
-    margin: 10px 50px;
-    width: 300px;
-    border: #9e9e9e 0.5px solid;
-    font-size: 16px;
-    font-family: "Microsoft Yahei";
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-.picBox img {
-    width: 280px;
-    padding: 5px;
-}
-
-/*表格*/
-table {
-    width: 100%;
-    margin: 0 auto;
-    text-align: left;
-    text-indent: 1em;
-    border-collapse: collapse;
-    border: 1px solid #ccc;
-}
-
-table tr:nth-child(1) {
-    background: #333333;
-    color: #fff;
-}
-
-table tr:nth-child(6) {
-    background: #DEDEDE;
-}
-
-table td {
-    padding: 5px;
-}
-
-table .footer-tr {
-    background: #ccc;
-}
-
-/*register*/
-.register{
-
-
-}
-
-.register h2 {
-    border-left: 3px solid #DEDEDE;
-    padding-left: 10px;
-}
-
-.register p {
-    width: 100%;
-    padding-left: 200px;
-}
-
-.register p span {
-    display: inline-block;
-    width: 200px;
-    text-align: right;
-    padding-right: 10px;
-}
-
-.register p input {
-    margin: 10px 0;
-}
-
-.register p:nth-child(3),
-.register p:nth-child(6) {
-    padding-left: 410px;
+    font-family: Arial,"微软雅黑";
     font-size: 12px;
-    color: #DEDEDE;
+    color: black;
 }
 
-.register > input {
+
+
+/*顶部导航样式*/
+#nav {
+    position: relative;
+    /*为了定位下面导航列表的位置*/
     width: 100%;
-    font-size: 20px;
-    line-height: 30px;
-    background: #3355D0;
-    margin: 10px;
-    border-radius: 10px;
-    color: #fff;
+    height: 60px;
+    background-color: #333;
 }
 
-/*footer*/
-footer {
-    background-color: #696969;
-    color: aliceblue;
-    height: 60px;
+.topnav-logo>.google-logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.topnav-list ul li {
+    float: left;
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.topnav-list ul {
+    position: absolute;
+    top: 22px;
+    right: 16px;
+}
+
+.topnav-list ul li a {
+    text-decoration: none;
+    color: #ffeff4;
+    font-size: 12px;
+}
+
+.topnav-list .topnav-list4 {
+    color: #a9aeb4;
+}
+
+
+/*主要内容样式 start*/
+#main {
+    overflow: auto;
+    width: 100%;
+    /*margin: 0px auto;*/
+}
+
+.articeldiv {
+    margin-right: 370px;
+}
+
+.article {
+    margin: 20px 20px;
+    padding: 40px 20px;
+    border: 1px solid #cdcdcd;
+    font-size: 15px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.article h2 {
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+
+.article h3 {
+    font-size: 14px;
+    margin-bottom: 17px;
+    color: #5d6770;
+}
+
+.article >.article-info {
+    font-size: 10px;
+    margin-bottom: 16px;
+    color: #5d6770;
+}
+
+.article >.p-indent {
+    text-indent: 2em;
+}
+
+.article p {
+    line-height: 25px;
+}
+
+.article img{
+    display: block;
+    width: 100%;
+    height:  100%;
+}
+
+.article >.article-pic {
+    display: block;
+    margin: 5px 0;
+}
+
+.article >.ul-nodisc li {
+    list-style-type: none;
+}
+
+.article >.ul-nodisc {
+    margin: 20px 20px;
+}
+
+.columnofpic {
+    display: inline-block;
+    width: 120px;
+    height: 124px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border: 1px solid #cbcbcb;
     text-align: center;
-    padding-top: 20px;;
+}
+
+.columnofpic img {
+    display: block;
+    width: 100px;
+    height: 80px;
+    margin: 10px auto;
+}
+
+.columnofpic p {
+    height: 12px;
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+
+.article-table {
+    width: 100%;
+    /*border: 1px solid #ccc;*/
+    border-collapse: collapse;
+}
+
+.article-table td {
+    height: 24px;
+    padding-left: 5px;
+    text-align: left;
+    vertical-align: center;
+    font-size: 12px;
+
+}
+
+.article-table thead th {
+    height: 24px;
+    padding-left: 5px;
+    background-color: #333;
+    text-align: left;
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+}
+
+.article-table tfoot td {
+    background-color: #ccc;
+    font-weight: 700;
+    color: black;
+}
+
+.article-table tr {
+    border: 1px solid #e6e6e6;
+}
+
+.article-table .firstcol {
+    border-right: 1px solid #a1a1a1;
+}
+
+.article-table .secondrow {
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+/*侧栏样式*/
+
+#sidebar {
+    float: right;
+    width: 350px;
+    margin: 20px 20px 20px 20px;
+    border: 1px solid #cdcdcd;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#sidebar h3 {
+    height: 38px;
+    margin: 20px;
+    padding-left: 10px;
+    border-left: 3px solid #c8c8c8;
+    line-height: 38px;
+    font-size: 15px;
+}
+
+/*#sidebar .sidebar-form {*/
+    /*margin-left: 237px;*/
+/*}*/
+
+.sidebar-form .ifoinputform {
+    margin: 6px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.infocategory-left {
+    display: inline-block;
+    width: 100px;
+    height: 14px;
+    margin-right: 14px;
+    text-align: right;
+    line-height: 14px;
+}
+.ifoinputform-tip {
+    display: inline-block;
+    color: #b7a7aa;
+}
+
+.ifoinputform textarea {
+    width: 50%;
+    height: 100px;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+.submitdiv {
+    margin: 20px;
+}
+
+/*解决.submitbtn设置width: 100%;后再设置margin溢出的问题*/
+
+.submitbtn {
+    display: block;
+    width: 100%;
+    height: 38px;
+    border: 1px solid #c4cccf;
+    border-radius: 10px;
+    background-color: #3355d0;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+/*页脚样式 start*/
+#footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
 }
