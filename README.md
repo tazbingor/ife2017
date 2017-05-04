@@ -17,4 +17,7 @@
    >预览: https://tazbingor.github.io/ife2017/task_04/index.html
 
 5. 任务五,Page加强版
+  >预览: https://tazbingor.github.io/ife2017/task_05/index.html
+6. 模拟报纸
+
 
